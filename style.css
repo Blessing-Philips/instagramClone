@@ -1,0 +1,216 @@
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar{
+    width: 260px;
+    position: fixed;
+    height: 100vh;
+    background-color: white;
+    z-index: 2;
+    border-right: 1px solid grey;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+.logo{
+    width: 125px;
+    margin-bottom: 20px;
+    padding-top: 2.5rem;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.nav-bar a:hover{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.home a{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.search a{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.explore a{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.message a{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.notification a{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.create a{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.profile a{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.more a{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.main-home{
+    position: absolute;
+    width: 100%
+    top 0;
+    left: 260px;
+    background: #f8f8f8;
+    border-radius: 1rem 0 0 1rem;
+    z-index: 1000;
+}
+
+.mid{
+    margin-left: 8rem;
+}
+
+.stories{
+    display: flex;
+    gap: 1rem;
+    border: 1px solid grey;
+    margin-top: 1.5rem;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: white;
+}
+
+.stories img{
+    border: 2px solid #e2336b;
+    border-radius: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+
+
+.feed1{
+    height: 100vh;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin-top: 1rem;
+    background: white;
+}
+
+.feed-img1{
+    border-radius: 100%;
+    float: left;
+}
+
+.feed-img1,
+.feed-text1{
+    padding: 1rem 0.5rem;
+}
+
+.feed2{
+    height: 100vh;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin-top: 1rem;
+    background: white;
+}
+
+.feed-img2{
+    border-radius: 100%;
+    float: left;
+}
+
+.feed-img2,
+.feed-text2{
+    padding: 1rem 0.5rem;
+    align-items: center;
+}
+
+.feed3{
+    height: 100vh;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin-top: 1rem;
+    background: white;
+}
+
+.feed-img3{
+    border-radius: 100%;
+    float: left;
+}
+
+.feed-img3,
+.feed-text3{
+    padding: 1rem 0.5rem;
+    align-items: center;
+}
+
+.feed4{
+    height: 100vh;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin-top: 1rem;
+    background: white;
+}
+
+.feed-img4{
+    border-radius: 100%;
+    float: left;
+}
+
+.feed-img4,
+.feed-text4{
+    padding: 1rem 0.5rem;
+    align-items: center;
+}
+
+
+
